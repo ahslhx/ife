@@ -1,0 +1,178 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font:15px/1.8em "SimHei";
+}
+#header{
+	width: 100%;
+	height: 60px;
+	background-color: #333;
+}
+#footer{
+	width: 100%;
+	height: 60px;
+	background-color: #000;
+	color: #FFF;
+	text-align: center;	
+	line-height: 60px;
+	font-size: 0.8em;
+}
+.logo{
+	float: left;
+	margin-top: 5px;
+	margin-left: 30px;
+}
+.headlink{
+	float:right;
+}
+#header-nav > ul > li {
+	display: inline-block;
+	margin-right: 20px;
+}
+#header-nav a{
+	color: #FFF;
+	text-decoration: none;
+	display: inline-block;
+	height: 60px;
+	line-height: 60px;
+}
+#header-nav a:hover{
+	color:gray;
+}
+#container{
+	background-color: #DAD9D9;
+	padding: 20px;
+}
+#content{
+	margin-right:412px; 
+}
+article{
+	background-color: #FFF;
+	border: 1px solid #BFBEBE;
+	box-shadow: 2px 2px 2px #848484;
+	margin-bottom:20px;
+	padding: 20px;
+}
+h2{
+	margin: 0.5em 0;
+}
+h3{
+	color:#6F6C6C;
+}
+.main_text{
+	text-indent:2em;
+}
+.smallsize{
+	font-size:0.8em;
+	color:#7A7979;
+}
+.pic{
+	padding: 10px 0;
+}
+.rank{
+	padding-left: 40px;
+}
+.rank > ul{
+	list-style-type: none;
+}
+.rank > ol{
+	font-weight: 600;
+}
+
+#image-list > ul{
+	list-style-type: none;
+}
+#image-list > ul >li{
+	border: 1px solid #BFBEBE;
+	width: 120px;
+	height: 120px;
+	padding: 10px;
+	text-align: center;
+	margin: 0 0 15px 40px;
+	float: left;
+}
+#image-list > ul >li img{
+	width: 110px;
+	height: 80px;
+	margin-top: 10px;
+}
+.clearfix:after{
+	display:block; 
+	content:"clear"; 
+	height:0; 
+	clear:both; 
+	overflow:hidden; 
+	visibility:hidden;
+}
+#atable{
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #BFBEBE;
+}
+#atable thead{
+	background-color: #333;
+	color: #FFF;
+}
+#atable thead tr th{
+	border-right: 1px solid #BFBEBE;
+	border-bottom: 1px solid #BFBEBE;	
+	font-size: 13px;
+	text-align: left;
+	padding-left: 5px; 
+}
+#atable tfoot{
+	background-color: #C6C6C6;
+}
+#atable tbody tr:nth-child(2n+1) td{
+	border-right: 1px solid #BFBEBE;
+	border-bottom: 1px solid #C6C6C6;
+	padding-left: 5px;
+	font-size: 13px;
+}
+#atable tbody tr:nth-child(2n) td{
+	border-right: 1px solid #BFBEBE;
+	border-bottom: 1px solid #BFBEBE;
+	padding-left: 5px;
+	font-size: 13px;
+}
+#atable tfoot tr td{
+	font-size: 13px;
+	padding-left: 5px;
+	font-weight: 600;
+}
+#sidebar{
+	background-color: #FFF;
+	border: 1px solid #BFBEBE;
+	box-shadow: 2px 2px 2px #848484;
+	padding: 10px 20px;
+	width:350px;
+	font-size: 0.8em;
+	float: right;
+}
+#sidebar h2{
+	border-left: 3px solid #BFBEBE;
+	padding: 5px 0 5px 10px;
+}
+
+.form-field-title{
+	display: inline-block;
+    width: 30%;
+    text-align: right;
+    margin-right: 10px;
+    vertical-align: top;
+}
+.form-field-tip{
+	color: gray;
+	margin-left:35%; 
+	margin-bottom:10px; 
+}
+.button-submit{
+	width: 100%;
+	height: 40px;
+	background-color: #3355D0;
+	color: #FFF;
+	border-radius: 13px;
+	font-weight: 600;
+}
