@@ -1,0 +1,165 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font:15px/1.8em "SimHei";
+}
+#header{
+	width: 100%;
+	height: 60px;
+	background-color: #333;
+}
+#footer{
+	width: 100%;
+	height: 60px;
+	background-color: #000;
+	color: #FFF;
+	text-align: center;	
+	line-height: 60px;
+	font-size: 0.8em;
+}
+.logo{
+	float: left;
+	margin-top: 5px;
+	margin-left: 30px;
+}
+.headlink{
+	float:right;
+}
+#header-nav > ul > li {
+	display: inline-block;
+	margin-right: 20px;
+}
+#header-nav a{
+	color: #FFF;
+	text-decoration: none;
+	display: inline-block;
+	height: 60px;
+	line-height: 60px;
+}
+#header-nav a:hover{
+	color:gray;
+}
+#container{
+	background-color: #DAD9D9;
+	padding: 20px;
+}
+.content{
+	background-color: #FFF;
+	border: 1px solid #BFBEBE;
+	margin-bottom:20px;
+	padding: 20px;
+}
+h2{
+	margin: 0.5em 0;
+}
+h3{
+	color:#6F6C6C;
+}
+.main_text{
+	text-indent:2em;
+}
+.smallsize{
+	font-size:0.8em;
+	color:#7A7979;
+}
+.pic{
+	padding: 10px 0;
+}
+.rank{
+	padding-left: 40px;
+}
+.rank > ul{
+	list-style-type: none;
+}
+.rank > ol{
+	font-weight: 600;
+}
+#image-list > ul{
+	list-style-type: none;
+}
+#image-list > ul >li{
+	border: 1px solid #BFBEBE;
+	width: 160px;
+	height: 160px;
+	padding: 10px;
+	text-align: center;
+	margin: 0 0 15px 40px;
+}
+#image-list > ul >li img{
+	width: 150px;
+	height: 120px;
+	margin-top: 10px;
+}
+#atable{
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #BFBEBE;
+}
+#atable thead{
+	background-color: #333;
+	color: #FFF;
+}
+#atable thead tr th{
+	border-right: 1px solid #BFBEBE;
+	border-bottom: 1px solid #BFBEBE;	
+	font-size: 13px;
+	text-align: left;
+	padding-left: 5px; 
+}
+#atable tfoot{
+	background-color: #C6C6C6;
+}
+#atable tbody tr:nth-child(2n+1) td{
+	border-right: 1px solid #BFBEBE;
+	border-bottom: 1px solid #C6C6C6;
+	padding-left: 5px;
+	font-size: 13px;
+}
+#atable tbody tr:nth-child(2n) td{
+	border-right: 1px solid #BFBEBE;
+	border-bottom: 1px solid #BFBEBE;
+	padding-left: 5px;
+	font-size: 13px;
+}
+#atable tfoot tr td{
+	font-size: 13px;
+	padding-left: 5px;
+	font-weight: 600;
+}
+#sidebar{
+	background-color: #FFF;
+	border: 1px solid #BFBEBE;
+	margin-top: 40px;
+	padding: 20px;
+	width:95%;
+	font-size: 0.8em;
+}
+#sidebar h2{
+	border-left: 3px solid #BFBEBE;
+	padding: 5px 0 5px 10px;
+}
+#formdiv{
+	width: 65%;
+	margin: 0 auto; 
+}
+.form-field-title{
+	display: inline-block;
+    width: 160px;
+    text-align: right;
+    margin-right: 15px;
+    vertical-align: top;
+}
+.form-field-tip{
+	color: #BFBEBE;
+	margin-left:185px; 
+}
+.button-submit{
+	width: 100%;
+	height: 40px;
+	background-color: #3355D0;
+	color: #FFF;
+	border-radius: 13px;
+	font-weight: 600;
+}
